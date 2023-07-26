@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Cascadedifelse {
 
 	public static void main(String[] args) {
+	@SuppressWarnings("resource")
 	Scanner s= new Scanner(System.in);
 	System.out.println("Enter age1 :");
 	int age1=s.nextInt();
@@ -18,7 +19,6 @@ public class Cascadedifelse {
 		System.out.println("Age1 is greater");
 		
 	}
-	
 	
 
 	
