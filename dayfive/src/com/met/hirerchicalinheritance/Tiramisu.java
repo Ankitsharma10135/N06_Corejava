@@ -2,7 +2,7 @@ package com.met.hirerchicalinheritance;
 
 public class Tiramisu extends Android {
 	
-	private int version;
+       private int version;
 	
 	
 	
@@ -13,8 +13,7 @@ public class Tiramisu extends Android {
 
 
 
-
-	public void setVersion(int version) {
+ 	public void setVersion(int version) {
 		this.version = version;
 	}
 
